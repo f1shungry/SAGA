@@ -2,7 +2,7 @@
 
 **[ICLR 2026]** Official PyTorch implementation of **SAGA**.
 
-**SAGA ** is a novel framework for **Multi-view Graph Domain Adaptation (MGDA)**. Unlike traditional graph domain adaptation methods that assume single-view graph structures, SAGA effectively handles multi-relational graphs by dynamically aligning structural information across both views and neighborhood hops.
+**SAGA** is a novel framework for **Multi-view Graph Domain Adaptation (MGDA)**. Unlike traditional graph domain adaptation methods that assume single-view graph structures, SAGA effectively handles multi-relational graphs by dynamically aligning structural information across both views and neighborhood hops.
 
 The framework is illustrated as follows：
 
@@ -159,5 +159,6 @@ python main.py -d ACM1-ACM2 --batchsize 2000 --hidden_dim 512 --embed_dim 256 --
 > **Note**: Parameters marked as *dataset-specific* will automatically use optimized default values based on your selected dataset pair. You can still override them manually if needed.
 
 ---
+
 
 
