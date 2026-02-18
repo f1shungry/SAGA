@@ -6,7 +6,7 @@
 
 The framework is illustrated as follows：
 
-![](.\framework.jpg)
+![](./framework.jpg)
 
 ## Dataset
 
@@ -159,4 +159,5 @@ python main.py -d ACM1-ACM2 --batchsize 2000 --hidden_dim 512 --embed_dim 256 --
 > **Note**: Parameters marked as *dataset-specific* will automatically use optimized default values based on your selected dataset pair. You can still override them manually if needed.
 
 ---
+
 
